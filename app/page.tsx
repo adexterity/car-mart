@@ -48,7 +48,7 @@ useEffect(() => {
   console.log(`fuel:${fuel} , year:${year}, limit:${limit}, manufacturer:${manufacturer}, model:${model}`);
 
   getCars();
-}, [fuel, year, limit, manufacturer, model, getCars])
+}, [fuel, year, limit, manufacturer, model])
 
 
   return (

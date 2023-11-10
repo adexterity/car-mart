@@ -12,7 +12,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          "Discover, Reserve, and Drive - Effortlessly and Swiftly"
+        &quot;Discover, Reserve, and Drive - Effortlessly and Swiftly&quot;
         </h1>
         <p className="hero__subtitle">
           Enhance Your Rental Experience with Our Effortless Booking for
