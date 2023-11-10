@@ -46,7 +46,7 @@ const getCars = async()=>{
 
 useEffect(() => {
   console.log(`fuel:${fuel} , year:${year}, limit:${limit}, manufacturer:${manufacturer}, model:${model}`);
-  
+
   getCars();
 }, [fuel, year, limit, manufacturer, model])
 
@@ -70,7 +70,7 @@ useEffect(() => {
         {allCars.length > 0 ? (
           <section>
             <div className="home__cars-wrapper">
-              {allCars?.map((car)=>(<CarCard car={car} />))}
+              {allCars?.map((car, index)=>(<CarCard car={car} key={index}/>))}
             </div>
 
             {loading && (
