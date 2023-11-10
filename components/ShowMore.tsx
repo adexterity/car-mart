@@ -16,7 +16,7 @@ const ShowMore = ({pageNumber, isNext, setLimit}: ShowMoreProps) => {
   return (
 <div className="w-full flex-center gap-5 mt-10">
     {!isNext && (
-      <CustomButton title='Show More' btnType='button' containerStyles='bg-primary-blue rounded-full text-white' handleClick={handleNavigation}/>
+      <CustomButton title='Show More' btnType='button' containerStyles='bg-[#673AB7] rounded-full text-white' handleClick={handleNavigation}/>
     )}
 </div>  
 )
